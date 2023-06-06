@@ -23,13 +23,15 @@
     "@videogular/ngx-videogular": "^4.1.0",
     "@webgpu/types": "^0.1.32",
     "ajv": "^6.9.1",
-    "apollo-angular": "^5.0.0",
+    "apollo-angular": "3.0.0",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
     "ngx-videogular": "^10.1.0-0",
     "react": "^18.2.0",
     "rxjs": "^6.5.5",
-    "tslib": "^2.3.0",
+    "tslib": "^2.5.3",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
