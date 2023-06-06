@@ -14,7 +14,8 @@ import { ImageComponent } from './image/image.component';
 import { ApolloModule, APOLLO_OPTIONS } from 'apollo-angular';
 import { HttpLink } from 'apollo-angular/http';
 import { InMemoryCache } from '@apollo/client';
-import { HttpLinkModule } from '@apollo-angular/http-link';
+import { HttpLinkModule } from 'apollo-angular/http-link';
+
 
 @NgModule({
   declarations: [AppComponent, OrderComponent, OrderspurePipe, ImageComponent],
