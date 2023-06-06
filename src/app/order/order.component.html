@@ -1,0 +1,10 @@
+<p>order works!</p>
+
+<label for="name"> Order Name </label>
+<input #name type="text" (change)="onChange(name.value)"/>
+
+<div><p>Heros:</p></div>
+<div *ngFor="let order of (orders | orderspure)">
+   <p>{{order}} </p>
+</div>
+
